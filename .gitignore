@@ -25,12 +25,12 @@ env/
 data/
 
 # Fichiers de modèles et résultats
-*.joblib
-*.pkl
-*.h5
-classification_results.csv
-scaler.joblib
-*_model.joblib
+#*.joblib
+#*.pkl
+#*.h5
+#classification_results.csv
+#scaler.joblib
+#*_model.joblib
 
 # Fichiers système
 .DS_Store

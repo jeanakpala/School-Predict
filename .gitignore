@@ -1,0 +1,43 @@
+# Fichiers et dossiers Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# Notebooks et sorties
+.ipynb_checkpoints/
+*.ipynb
+!notebook/*.ipynb
+
+# Fichiers de données
+*.csv
+*.tsv
+*.xls
+*.xlsx
+data/
+
+# Fichiers de modèles et résultats
+*.joblib
+*.pkl
+*.h5
+classification_results.csv
+scaler.joblib
+*_model.joblib
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Autres
+*.log
